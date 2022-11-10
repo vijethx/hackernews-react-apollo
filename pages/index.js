@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import CreateLink from "../components/CreateLink";
 import LinkList from "../components/LinkList";
 import styles from "../styles/Home.module.css";
 
@@ -19,7 +20,8 @@ export default function Home() {
 			</Head>
 
 			<main className={""}>
-				<LinkList />
+				{/* <LinkList /> */}
+				<CreateLink />
 			</main>
 		</div>
 	);
