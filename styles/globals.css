@@ -27,7 +27,7 @@ input {
 	cursor: pointer;
 	max-width: 250px; */
 
-	@apply font-mono text-[10px] text-black bg-buttonface text-center pt-0.5 pr-1.5 pb-[3px] border-2 border-buttonface cursor-pointer max-w-[250px];
+	@apply font-mono text-[10px] bg-buttonface text-center pt-0.5 pr-1.5 pb-[3px] border-2 border-buttonface cursor-pointer max-w-[250px];
 }
 
 .f11 {
